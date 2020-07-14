@@ -1,0 +1,12 @@
+.jumbotron{
+    background-color: orange;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.row{
+    margin-bottom: 50px;
+}
+.caracteristics{
+    flex: 1 250px;
+    padding: 18px;
+}
