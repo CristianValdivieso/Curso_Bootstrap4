@@ -4,6 +4,7 @@
   "description": "Nuestro primer proyecto en Nodejs",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,5 +12,8 @@
     "url": "git\u001b[Dthub.com/CristianValdivieso/Curso_Bootstrap4.git"
   },
   "author": "Cristian Valdivieso",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
