@@ -1,0 +1,15 @@
+{
+  "name": "modulo1",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto en Nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git\u001b[Dthub.com/CristianValdivieso/Curso_Bootstrap4.git"
+  },
+  "author": "Cristian Valdivieso",
+  "license": "ISC"
+}
