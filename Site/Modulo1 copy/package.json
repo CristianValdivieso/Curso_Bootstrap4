@@ -1,0 +1,25 @@
+{
+  "name": "modulo1",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto en Nodejs",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git\u001b[Dthub.com/CristianValdivieso/Curso_Bootstrap4.git"
+  },
+  "author": "Cristian Valdivieso",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "open-iconic": "^1.1.1",
+    "popper.js": "^1.16.1"
+  }
+}
