@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.jumbotron{
+    background-color: rgb(255, 165, 0);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Pacifico', cursive;
+}
+.caracteristics{
+    flex: 1 250px;
+    padding: 18px;
+    box-shadow: 1px 1px 1px 2px rgb(255, 165, 0);
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+#botón{
+    width: 100%;
+    text-align: center;
+}
+.row{
+    background-color: rgb(255, 165, 0);
+    padding: 40px 150px;
+    font-family: 'Pacifico', cursive;
+}
