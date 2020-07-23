@@ -18,8 +18,15 @@
     width: 100%;
     text-align: center;
 }
-.row{
+.piepagina{
     background-color: rgb(255, 165, 0);
     padding: 40px 150px;
     font-family: 'Pacifico', cursive;
+}
+.formulario{
+    margin: 50px auto;
+}
+.icon{
+    margin-right: 5px;
+    font-size: 30px;
 }
