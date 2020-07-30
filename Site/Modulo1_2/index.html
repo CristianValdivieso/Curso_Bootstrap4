@@ -85,7 +85,7 @@
                     <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iusto provident eos inventore, expedita incidunt beataer.</p>
                 </div>
                 <div>
-                    <button id="botón" type="button" class="btn btn-primary">Pedir</button>
+                    <button id="botón" type="button" class="btn btn-primary" data-toggle="popover" title="Pedido con un click" data-content="Tu pedido ya está en el horno. Gracias por preferirnos!">Pedir</button>
                 </div>
             </section>
             <section class="card caracteristics d-flex flex-column justify-content-between ml-2">
@@ -215,6 +215,7 @@
     <script>
         $(function(){
         $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="popover"]').popover()
       });
     </script>
     
