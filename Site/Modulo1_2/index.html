@@ -80,7 +80,7 @@
             <section class="card caracteristics d-flex flex-column justify-content-between ml-2">
                 <img class="card-img-top" src="https://statics-cuidateplus.marca.com/sites/default/files/plato_reloj_1.jpg" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">Pollo</h4>
+                    <h4 class="card-title text-center" data-toggle="tooltip" data-placement="top" title="Algunos ingredientes contienen gluten">Pollo</h4>
                     <h6 class="card-subtitle text-muted">Asado</h6>
                     <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iusto provident eos inventore, expedita incidunt beataer.</p>
                 </div>
@@ -91,7 +91,7 @@
             <section class="card caracteristics d-flex flex-column justify-content-between ml-2">
                 <img class="card-img-top" src="https://statics-cuidateplus.marca.com/sites/default/files/plato_reloj_1.jpg" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">Carne</h4>
+                    <h4 class="card-title text-center">Carne</h4>
                     <h6 class="card-subtitle text-muted">A la brasa</h6>
                     <p class="card-text text-justify">Ad aperiam porro tempora eius maiores ex eum voluptate similique asperiores a voluptates, inventore placeat iste nam et ipsum rerum est cupiditate...</p>
                 </div>
@@ -100,7 +100,7 @@
             <section class="card caracteristics d-flex flex-column justify-content-between">
                 <img class="card-img-top" src="https://statics-cuidateplus.marca.com/sites/default/files/plato_reloj_1.jpg" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">Pescado</h4>
+                    <h4 class="card-title text-center">Pescado</h4>
                     <h6 class="card-subtitle text-muted">Frito</h6>
                     <p class="card-text text-justify">Ad aperiam porro tempora eius maiores ex eum voluptate similique asperiores a voluptates, inventore placeat iste nam et ipsum rerum est cupiditate.!</p>
                 </div>
@@ -112,7 +112,7 @@
                 </div>
                 <img class="card-img-top" src="https://statics-cuidateplus.marca.com/sites/default/files/plato_reloj_1.jpg" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">Masas</h4>
+                    <h4 class="card-title text-center">Masas</h4>
                     <h6 class="card-subtitle text-muted">Fetuccini</h6>
                     <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iusto provident eos inventore, expedita incidunt beataer.</p>
                 </div>
@@ -126,7 +126,7 @@
                 </div>
                 <img class="card-img-top" src="https://statics-cuidateplus.marca.com/sites/default/files/plato_reloj_1.jpg" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">Desayuno</h4>
+                    <h4 class="card-title text-center">Desayuno</h4>
                     <h6 class="card-subtitle text-muted">Americano</h6>
                     <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iusto provident eos inventore, expedita incidunt beataer.</p>
                 </div>
@@ -140,7 +140,7 @@
                 </div>
                 <img class="card-img-top" src="https://statics-cuidateplus.marca.com/sites/default/files/plato_reloj_1.jpg" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">Entrada</h4>
+                    <h4 class="card-title text-center">Entrada</h4>
                     <h6 class="card-subtitle text-muted">Atún</h6>
                     <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iusto provident eos inventore, expedita incidunt beataer.</p>
                     <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#opciones">Opciones</button>
@@ -210,6 +210,13 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script>
+        $(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+    
   </body>
 </html>
