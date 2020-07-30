@@ -39,112 +39,149 @@
             </ol>
           </nav> 
           <p>Precio por franquías en las ciudades del Brasil</p>
-          
-          <table class="table table-striped table-responsive">
-            <thead>
-              <tr>
-                <th scope="col">Valores</th>
-                <th scope="col">São Paulo</th>
-                <th scope="col">Rio de Janeiro</th>
-                <th scope="col">Minas Gerais</th>
-                <th scope="col">Ceará</th>
-                <th scope="col">Manaus</th>
-                <th scope="col">Sergipe</th>
-                <th scope="col">Piauí</th>
-                <th scope="col">Bahia</th>
-                <th scope="col">Espíritu Santo</th>
-                <th scope="col">Santa Catarina</th>
-                <th scope="col">Paraná</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Pollo</th>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-              </tr>
-              <tr>
-                <th scope="row">Carne</th>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-              </tr>
-              <tr>
-                <th scope="row">Pescado</th>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-              </tr>
-              <tr>
-                <th scope="row">Masa</th>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-              </tr>
-              <tr>
-                <th scope="row">Desayuno</th>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-              </tr>
-              <tr>
-                <th scope="row">Entrada</th>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-                <td>R$ 20.00</td>
-              </tr>
-            </tbody>
-          </table>
+
+          <ul class="nav nav-pills" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="compara-tab" data-toggle="tab" href="#compara" role="tab" aria-controls="compara" aria-selected="true">Compara</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="tajetas-tab" data-toggle="tab" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="false">Tarjetas</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="false">Comentarios</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+            
+              <table class="table table-striped table-responsive">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Valores</th>
+                    <th scope="col">São Paulo</th>
+                    <th scope="col">Rio de Janeiro</th>
+                    <th scope="col">Minas Gerais</th>
+                    <th scope="col">Ceará</th>
+                    <th scope="col">Manaus</th>
+                    <th scope="col">Sergipe</th>
+                    <th scope="col">Piauí</th>
+                    <th scope="col">Bahia</th>
+                    <th scope="col">Espíritu Santo</th>
+                    <th scope="col">Santa Catarina</th>
+                    <th scope="col">Paraná</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Pollo</th>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Carne</th>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Pescado</th>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Masa</th>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Desayuno</th>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Entrada</th>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                    <td>R$ 20.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+
+              <div class="d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-header"><h5 class="text-center">Tarjetas aceptadas</h5> 
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Dinners Club</li>
+                      <li class="list-group-item">Visa</li>
+                      <li class="list-group-item">MasterCard</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">Comentarios
+
+            </div>
+    
+          </div>
     </div>
+    
 
     <footer>
       <div class="d-flex piepagina">
