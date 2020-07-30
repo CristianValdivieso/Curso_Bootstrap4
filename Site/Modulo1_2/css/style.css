@@ -37,3 +37,6 @@
 .boton-collap{
     margin-bottom: 10px;
 }
+.carousel-control-prev, .carousel-control-next{
+    background-color: black;
+}
