@@ -171,7 +171,7 @@
                     <h4 class="card-title text-center" data-toggle="tooltip" data-placement="top" title="Algunos ingredientes contienen gluten">Entrada</h4>
                     <h6 class="card-subtitle text-muted">Atún</h6>
                     <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iusto provident eos inventore, expedita incidunt beataer.</p>
-                    <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#opciones">Opciones</button>
+                    <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#opciones" id="opcionesBtn">Opciones</button>
                 </div>
                 <div>
                     <button id="botón" type="button" class="btn btn-primary">Pedir</button>
@@ -211,7 +211,8 @@
           </div>
         </div>
       </div>
-      
+
+     <!-- ========================================================FOOTER========================================================== --> 
     <footer>
         <div class="d-flex piepagina">
             <div class="col-lg-4 d-flex flex-column">
@@ -246,6 +247,12 @@
         $('[data-toggle="popover"]').popover()
         $('.carousel').carousel({
             interval: 3000
+        });
+        $('#opciones').on('show.bs.modal', function(e){
+          console.log('El modal se está mostrando');
+            $('#opcionesBtn').removeClass('btn-outline-success');
+            $('#opcionesBtn').addClass('btn-primary');
+            $('#opcionesBtn').prop('disabled', true)
         })
       });
     </script>
