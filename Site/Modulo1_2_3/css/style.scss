@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-$yellow: #FFA500
+$yellow: #FFA500;
+
+@mixin margenes($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
 
 .jumbotron{
     background-color: $yellow;
     padding-top: 40px;
     padding-bottom: 40px;
     font-family: 'Pacifico', cursive;
-    margin-top: 70px;
+    @include margenes(70px, 15px)
 }
 .caracteristics{
     flex: 1 250px;
     padding: 0px;
-    box-shadow: 1px 1px 1px 2px rgb(255, 165, 0);
+    box-shadow: 1px 1px 1px 2px $yellow;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 50px;
@@ -22,7 +27,7 @@ $yellow: #FFA500
     border-radius: 0;
 }
 .piepagina{
-    background-color: rgb(255, 165, 0);
+    background-color: $yellow;
     padding: 40px 150px;
     font-family: 'Pacifico', cursive;
 }
@@ -37,7 +42,7 @@ $yellow: #FFA500
     padding-top: 10px;
 }
 .boton-collap{
-    margin-bottom: 10px;
+    @include margenes(0px, 10px)
 }
 .carousel-control-prev, .carousel-control-next{
     background-color: black;
