@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-$yellow: #FFFF00
+$yellow: #FFA500
 
 .jumbotron{
-    background-color: rgb(255, 165, 0);
+    background-color: $yellow;
     padding-top: 40px;
     padding-bottom: 40px;
     font-family: 'Pacifico', cursive;
