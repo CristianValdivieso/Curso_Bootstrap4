@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ96A.ttf) format('truetype');
+}
+.jumbotron {
+  background-color: #FFA500;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Pacifico', cursive;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+.caracteristics {
+  flex: 1 250px;
+  padding: 0px;
+  box-shadow: 1px 1px 1px 2px #FFA500;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+#botón {
+  width: 100%;
+  text-align: center;
+  border-radius: 0;
+}
+.piepagina {
+  background-color: #FFA500;
+  padding: 40px 150px;
+  font-family: 'Pacifico', cursive;
+}
+.formulario {
+  margin: 50px auto;
+}
+.icon {
+  margin-right: 5px;
+  font-size: 30px;
+}
+.tab-content {
+  padding-top: 10px;
+}
+.boton-collap {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: black;
+}
